@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="wp-content/uploads/sites/5/2019/12/favicon.ico" rel="icon" sizes="32x32">
+	<link href="wp-content/uploads/sites/5/2019/12/favicon.ico" rel="icon" sizes="192x192">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$(".header-menu li a").click(function(event) {
+ 		  		event.preventDefault();
+ 		  	 var id = $(this).attr('href');
+			$('html, body').animate({
+				    scrollTop: $(id).offset().top - 100	
+				}, 1000);
+			});
+			$('.contact-btn a').click(function(){
+				alert("sorry,something technical error please contact on email :- harshgujral.designer@gmail.com ")
+			})
+		});
+		</script>
+
+
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$(".text-banner a,.banner-content-first a,.logo a").click(function(event) {
+ 		  		event.preventDefault();
+ 		  	 var id = $(this).attr('href');
+			$('html, body').animate({
+				    scrollTop: $(id).offset().top - 100	
+				}, 1000);
+			});
+		});
+		</script>
+	<style type="text/css">
+
+
+
+	       body {font-family: 'Raleway', sans-serif;background-color: #222222}
+	     .flexx {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.container {
+	width: 98%;
+	margin: 0 auto;
+}
+.main-header {
+	color: #e2f3f5;
+}
+.header-menu li {
+	display: inline-block;
+	padding: 14px;
+	font-weight: 700;
+}
+.header-menu ul {
+	margin: 5px;
+}
+.header-menu a {
+	color: #e2f3f5;
+	text-decoration: none;
+	padding: 19px 0;
+}
+.header-menu li :hover {
+	color: #007ced;
+}
+.logo h1 {
+	margin: 0;
+}
+.logo h1 a{
+	color:#e2f3f5;text-decoration: none; }
+.image-banner img {
+	border: 12px solid #444444;
+	border-radius: 50%;
+	height: 350px;
+	margin: 0px 55px;
+}
+.text-banner {
+	color:#e2f3f5
+}
+.banner-section {
+	justify-content: center;
+	margin-top: 65px;
+	padding: 5% 0;
+}
+.text-banner p {
+	line-height: 1.5;
+	font-weight: 500;
+	color: #c5c5c5;
+	font-size: 20px;
+}
+.text-banner h1 {
+	font-size: 50px;
+	margin-top: 0;
+	font-weight: 700;
+}
+.text-banner h4 {
+	margin-bottom: 10px;
+	color: #959595;
+}
+.text-banner a {
+	text-decoration: none;
+	font-size: 20px;
+	border: 3px solid #007ced;
+	color: #e2f3f5;
+	background-color: #333333;
+	padding: 10px 37px;
+	border-radius: 35px;
+	margin-top: 13px;
+	display: inline-block;
+}
+.text-banner a:hover {
+	background-color: #007ced;
+	transition: 0.5s
+}
+.dotext:after {
+	content: '';
+	position: absolute;
+	background-color: #007ced;
+	top: 37px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 4px;
+	width: 50px;
+}
+.dotext-sm:after {
+	content: '';
+	position: absolute;
+	background-color: #007ced;
+	top: 27px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 4px;
+	width: 50px;
+}
+.dotext-sm {
+	border-bottom: 4px solid #353535;
+	width: 148px;
+	font-size: 23px;
+	color: #e2f3f5;
+	margin-bottom: 33px;
+}
+.dotext {
+	border-bottom: 4px solid #353535;
+	width: 152px;
+	color: #e2f3f5
+}
+.doing {
+	position: relative;
+	margin-top: 65px;
+	margin-left: 20px;
+}
+.do-icon i {
+	font-size: 75px;
+	color: #007ced;
+	margin-left: 5px;
+}
+.do-box {
+	align-items: flex-start;
+	width: 45%;
+	margin-top: 20px;
+	
+}
+.do-text {
+	margin-left: 25px;
+}
+.do-text p {
+	font-size: 17px;
+	line-height: 1.5;
+	font-weight: 600;
+	color: #c5c5c5
+}
+.do-text h2 {
+	margin-bottom: 0;
+	color: #e2f3f5
+}
+.do-main {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 2% 0;
+}
+.progress-value {
+	float: right;
+	border-radius: 0;
+	color: #24262b;
+	line-height: 30px;
+	font-weight: bold;
+	position: relative;
+	bottom: 10px;
+	right: 0;
+	font-weight: 600;
+	font-family: 'Oswald', sans-serif;
+}
+.iq-progress-bar {
+	background: #6f6f6f none repeat scroll 0 0;
+	box-shadow: 0 0 0;
+	height: 8px;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	margin: 15px 0 0;
+}
+.iq-progress-bar span {
+	width: 0;
+	background: #007ced none repeat scroll 0 0;
+	display: block;
+	height: 100%;
+}
+.services-content {
+	width: 42%;
+}
+.services-content h4 {
+	margin-bottom: -10px;
+	color: #e2f3f5
+}
+.designing-skill {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 20px;
+	padding: 2% 0
+}
+.num {
+	display: none;
+	margin: 0 20px;
+}
+.one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.header-bg {
+	background-color: #444444;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.address {
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 15px;
+}
+.address-icon i {
+	font-size: 50px;
+}
+.address-text {
+	color: #e2f3f5
+}
+.address-icon {
+	padding-right: 36px;
+	color: #007ced
+}
+.input-main input {
+	display: block;
+	padding: 10px;
+	width: 90%;
+	font-weight: 800;
+	margin-top: 22px;
+	border-radius: 10px;
+	outline-color: #007ced;
+	border: none;
+}
+.full-contact {
+	justify-content: center;
+}
+.address-main {
+	width: 30%;
+}
+.input-main {
+	width: 30%;
+}
+textarea {
+	padding: 10px;
+	width: 27%;
+	font-weight: 800;
+	margin-top: 22px;
+	outline-color: #007ced;
+	border-radius: 10px;
+	font-size: 16px
+}
+.input-doing {
+	position: relative;
+	margin-top: -46px;
+}
+.contact-btn a {
+	text-decoration: none;
+	font-size: 17px;
+	border: 3px solid #007ced;
+	color: #e2f3f5;
+	background-color: #333333;
+	padding: 10px 25px;
+	border-radius: 35px;
+	margin-top: 2px;
+	display: inline-block;
+}
+.contact-btn {
+	text-align: center;
+	margin-top: -28px;
+}
+.contact-space {
+	padding: 3% 0;
+}
+.mail-text {
+	margin-left: -15px;
+}
+.recent-work {
+    margin: 0 70px;
+    padding: 3% 0;
+    text-align: center;
+}
+.portfolio-mob {display: none;}
+.recent-work p{text-align: center;
+    font-size: 27px;
+    color: #c5c5c5;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    margin-top: 0;
+ }
+
+.above-text p {
+    text-align: center;
+    font-size: 27px;
+    color: #e2f3f5;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 600;
+}
+.banner-content-first p {
+    color: #c5c5c5;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5;
+	margin-top: -32px;
+}
+.banner-content-first {
+    align-items: center;
+    text-align: center;
+    padding: 1% 0;
+}
+.banner-content-first a{
+    background: #e2f3f5;
+    color: #0e153a;
+    padding: 14px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+	margin-top: 15px;
+}
+.heading-grey {
+    color: #e2f3f5;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.recent-work img{max-width: 100%;}
+@media only screen and (max-width:1170px) {
+	.full-contact {
+		flex-wrap: wrap;
+	}
+	.address {justify-content: center;}
+	.address-main {
+		width: 100%;padding-bottom: 60px;
+	}
+	.contact-btn a {
+		margin-top: 45px
+	}
+	.address-icon i {
+    font-size: 60px;
+}
+
+textarea {margin-left: 20px;}
+}
+@media only screen and (max-width:1024px) {
+	.image-banner img {
+		height: 330px;
+	}
+	.recent-work {
+    margin: 0 40px;
+    padding: 3% 0;
+    text-align: center;
+}
+.heading-grey {
+    font-size: 66px;
+    padding: 2% 0;
+}
+}
+@media only screen and (max-width:768px) {
+	.header-menu li {
+		padding: 6px;
+		font-size: 16px
+	}
+	.header-menu ul {
+		padding: 0
+	}
+	.image-banner img {
+		height: 295px;
+	}
+	.text-banner h1 {
+		font-size: 35px;
+	}
+	.text-banner p {
+		font-size: 15px
+	}
+	.heading-grey {
+    font-size: 48px;
+}
+.banner-content-first p {
+    color: #c5c5c5;
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.do-box {
+    align-items: flex-start;
+    width: 100%;
+    margin: 20px;
+}
+}
+@media only screen and (max-width:680px) {
+	.image-banner img {
+		height: 250px;
+	}
+	.recent-work p{font-size: 24px;}
+	.above-text p{font-size: 24px;}
+}
+@media only screen and (max-width:625px) {
+	.logo h1 {
+		font-size: 21px;
+	}
+	.header-menu li {
+		padding: 4px;
+		font-size: 15px;
+	}
+	.image-banner img {
+		height: 220px;
+	}
+	.text-banner h1 {
+		font-size: 32px;
+	}
+	.text-banner p {
+		font-size: 14px
+	}
+	.do-text p {
+		font-size: 13px;
+	}
+	.heading-grey {
+    font-size: 42px;
+}
+}
+@media only screen and (max-width:565px) {
+	.text-banner h1 {
+		font-size: 28px;
+	}
+	.image-banner img {
+		height: 200px;
+		margin: 0 45px
+	}
+	.text-banner h1 {
+		font-size: 30px;
+	}
+	.text-banner p {
+		font-size: 13px
+	}
+	.services-content h4 {
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.portfolio-mob {display: block;}
+	.portfolio-desk {display: none;}
+	.recent-work p{font-size: 22px;}
+	.above-text p{font-size: 22px;}
+	.recent-work {
+    margin: 0 10px;
+    padding: 3% 0;
+    text-align: center;
+}
+}
+@media only screen and (max-width:495px) {
+	.image-banner img {
+		height: 180px;
+		margin: 0 45px
+	}
+	.text-banner h1 {
+		font-size: 25px;
+	}
+	.text-banner p {
+		font-size: 11px
+	}
+	.header-menu li {
+		padding: 5px;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:475px) {
+	.logo h1 {
+		font-size: 20px
+	}
+	.header-menu li {
+		padding: 5px;
+		font-size: 10px;
+	}
+	.do-text h2 {
+		font-size: 20px;
+	}
+	.services-content h4 {
+		font-size: 12px;
+		font-weight: 700;
+	}
+}
+@media only screen and (max-width:430px) {
+	.main-header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 13px;
+	}
+	.logo h1 {
+		font-size: 20px;
+	}
+	.header-menu {
+		width: 100%;
+		text-align: center;
+	}
+	.header-menu li {
+		font-size: 14px;
+		padding: 9px;
+	}
+	.banner-section {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 10%;
+	}
+	.image-banner {
+		width: 100%;
+		text-align: center;
+	}
+	.text-banner {
+		width: 100%;
+		text-align: center;
+	}
+	.image-banner img {
+		height: 250px;
+		margin-top: 15px;
+	}
+	.text-banner p {
+		line-height: 1.5;
+		font-size: 18px;
+	}
+	.text-banner h1 {
+		font-size: 40px;
+	}
+	
+	.do-text p {
+		font-size: 13px;
+	}
+	.services-content {
+		width: 100%;
+	}
+	.services-content h4 {
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.num {
+		display: block;
+	}
+	.designing-skill {
+		display: none;
+	}
+	.dotext {
+		margin-bottom: 20px;
+	}
+	.full-contact {
+		flex-wrap: wrap;
+		margin: 0 20px;
+	}
+	.input-doing {
+		margin-top: 0;
+		margin-left: 0px;
+	}
+	.dotext-sm {
+		margin-top: 30px;
+	}
+	.contact-btn a {
+		margin-top: 60px;
+	}
+	.address-main {
+		width: 100%;
+	}
+	.input-main {
+		width: 90%;
+	}
+	textarea {
+		padding: 10px;
+		width: 90%;
+		font-weight: 800;
+		margin-top: 22px;
+		border-radius: 10px;
+		font-size: 16px;
+		height: 95px;
+		margin-right: 32px;
+	}
+	.recent-work p{font-size: 16px;}
+	.above-text p{font-size: 16px;}
+	.header-menu a {
+
+    padding: 15px 0;
+}
+.heading-grey {
+    font-size: 36px;
+    margin-top: 22%;
+}
+.banner-content-first p {
+margin-top: 0;
+    font-size: 17px;
+
+}
+}
+@media only screen and (max-width:320px) {
+	.main-header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+	}
+	.logo h1 {
+		font-size: 20px;
+	}
+	.header-menu {
+		width: 100%;
+		text-align: center;
+	}
+	.header-menu li {
+		font-size: 12px;
+		padding: 7px;
+	}
+	.image-banner img {
+		height: 175px;
+	}
+	.text-banner p {
+		font-size: 14px
+	}
+	.text-banner h1 {
+		font-size: 35px;
+	}
+	.text-banner a {
+		padding: 8px 35px;
+	}
+	.services-content {
+		width: 100%;
+	}
+	.mail-text {
+		margin-left: -21px;
+		font-size: 14px;
+	}
+	.address-text p {
+		font-size: 14px;
+		margin-left: -33px;
+		color: #e2f3f5;
+	}
+}
+
+
+
+	</style>
+</head>
+<body class="container">
+	<div class="header-bg">
+		<div class="main-header flexx container" id="header">
+			<div class="logo">
+				<h1><a href="#first-banner">HARSH GUJRAL</a></h1>
+			</div>
+			<div class="header-menu" id="menu">
+				<ul>
+					<li>
+						<a href="#first-banner">HOME</a>
+					</li>
+					<li>
+						<a href="#click-about">ABOUT</a>
+					</li>
+					<li>
+						<a href="#click-work">WORK</a>
+					</li>
+					<li>
+						<a href="#click-skills">SKILLS</a>
+					</li>
+					<li>
+						<a href="#click-contact">HIRE ME</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!---main-header end==-->
+
+	</div>
+
+	<div class="banner-content-first" id="first-banner">
+		<h1 class="heading-grey">GOOD DESIGN HAS<br>
+				TO HAVE BRAINS,<br>
+				NOT JUST<br>
+				 BEAUTY</h1>
+			<p>Hi i’m Harsh Gujral. A freelance front end engineer
+				and business designer</p>
+			<a href="#click-contact" class="btn naviagte" style="background: #e2f3f5;color: #0e153a">hire me</a>
+		</div>
+
+	<div class="banner-section flexx" id="click-about">
+		<div class="image-banner"><img src="lack.jpg"></div>
+		<div class="text-banner">
+			<h4>Web Designer</h4>
+			<h1>Harsh Gujral</h1>
+			<p>I am Harsh Gujral. I studing Bachelor of Technology (B-Tech) in a college<br>
+			JMIT , Radaur and I’ve been a web development professional for over<br>
+			2 years.Designing, building and innovating for some pretty awesome<br>
+			clients.</p><a href="#click-contact">Contact</a>
+		</div>
+	</div>
+	<div class="doing" id="click-work">
+		<h1 class="dotext">What I Do</h1>
+	</div>
+	<div class="above-text">
+<p>I help businesses and brands to build a solid online presence and<br> automate their process.</p>
+</div>
+	<!--doing-->
+	<div class="do-main flexx">
+
+		<div class="do-box flexx">
+
+			<div class="do-icon">
+				<i class="fab fa-html5"></i>
+			</div>
+			<div class="do-text">
+				<h2>HTML</h2>
+				<p>HTML5 is the latest and most well adopted standard of HyperText Markup Language. Although it is not a programming language, it is still an essential component of web applications,.</p>
+			</div>
+		</div>
+
+		<!---do box=-->
+		<div class="do-box flexx">
+			<div class="do-icon">
+				<i class="fab fa-css3-alt"></i>
+			</div>
+			<div class="do-text">
+				<h2>CSS</h2>
+				<p>CSS stands for Cascading Style Sheets, and it’s the language of choice for determining the visual layout and presentation of a webpage.  CSS (responsible for style).</p>
+			</div>
+		</div>
+
+		<!---do box=-->
+		<div class="do-box flexx">
+			<div class="do-icon">
+				<i class="fab fa-js-square"></i>
+			</div>
+			<div class="do-text">
+				<h2>JAVA SCRIPT</h2>
+				<p>A JavaScript developer is responsible for implementing the front-end logic that defines the behavior of the visual elements of a web application.</p>
+			</div>
+		</div>
+
+		<!---do box=-->
+		<div class="do-box flexx">
+			<div class="do-icon">
+				<i class="fab fa-wordpress"></i>
+			</div>
+			<div class="do-text">
+				<h2>WORDPRESS</h2>
+				<p>WordPress Developers design and implement websites for companies using the WordPress creation tool.</p>
+			</div>
+		</div>
+
+		
+
+		<div class="do-box flexx">
+			<div class="do-icon">
+				<i class="fab fa-bootstrap"></i>
+			</div>
+			<div class="do-text">
+				<h2>BOOTSTRAP</h2>
+				<p>
+Bootstrap is a giant reusable bits of code written in HTML, CSS, and JavaScript. It's also a frontend development framework that enables developers and designers to quickly build fully responsive websites.</p>
+			</div>
+		</div>
+
+
+		<div class="do-box flexx">
+			<div class="do-icon">
+				<i class="fab fa-js-square"></i>
+			</div>
+			<div class="do-text">
+				<h2>JQUERY</h2>
+				<p>jQuery is a lightweight, "write less, do more", JavaScript library.The purpose of jQuery is to make it much easier to use JavaScript on your website.
+				</p>
+			</div>
+		</div>
+
+		<!---do box=-->
+	</div>
+	<div class="doing" id="click-skills">
+		<h1 class="dotext" style=" width: 105px;">Skills !</h1>
+	</div>
+<div class="above-text">
+<p>I developed strong skills in web design, re-design and maintenance.<br>I created many design solutions that have high visual impact.</p>
+</div>
+	<!--doing-->
+	<div class="designing-skill flexx">
+		<div class="services-content">
+			<div class="doing" style="margin-top: 25px">
+				<h1 class="dotext-sm">Design Skills</h1>
+			</div>
+
+			<!--doing-->
+			<h4>UI/UX Design</h4><span class="progress-value">80%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 80%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<div class="doing" style="margin-top: 25px">
+				<h1 class="dotext-sm">Coding Skills</h1>
+			</div>
+
+			<!--doing-->
+			<h4>HTML / CSS</h4><span class="progress-value">98%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 98%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Logo Design</h4><span class="progress-value">90%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 90%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Bootstrap</h4><span class="progress-value">85%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 85%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Graphic Design</h4><span class="progress-value">88%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 88%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Java Script / J Query</h4><span class="progress-value">80%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 80%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Banner Design</h4><span class="progress-value">95%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 95%"></span>
+			</div>
+		</div>
+		<div class="services-content">
+			<h4>Wordpress</h4><span class="progress-value">90%</span>
+			<div class="iq-progress-bar">
+				<span data-percent="98" style=" transition: width 2s ease 0s; width: 90%"></span>
+			</div>
+		</div>
+	</div>
+
+	<!--====for mobile===-->
+	<div class="num">
+		<div class="doing" style="margin-top: 25px">
+			<h1 class="dotext-sm">Design Skills</h1>
+		</div><!--doing-->
+		<div class="one flexx">
+			<div class="services-content">
+				<h4>UI/UX Design</h4><span class="progress-value">80%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 80%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Logo Design</h4><span class="progress-value">90%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 90%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Graphic Design</h4><span class="progress-value">88%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 88%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Banner Design</h4><span class="progress-value">95%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 95%"></span>
+				</div>
+			</div>
+		</div>
+		<div class="doing" style="margin-top: 25px">
+			<h1 class="dotext-sm">Coding Skills</h1>
+		</div>
+
+		<!--doing-->
+		<div class="one flexx">
+			<div class="services-content">
+				<h4>HTML / CSS</h4><span class="progress-value">98%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 98%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Bootstrap</h4><span class="progress-value">85%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 85%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Java Script / J Query</h4><span class="progress-value">80%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 80%"></span>
+				</div>
+			</div>
+			<div class="services-content">
+				<h4>Wordpress</h4><span class="progress-value">90%</span>
+				<div class="iq-progress-bar">
+					<span data-percent="98" style=" transition: width 2s ease 0s; width: 90%"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--==================for mobile=========-->
+	
+
+	<!--=====recent-work=======-->
+	<div class="doing" id="click-skills">
+		<h1 class="dotext" style=" width: 202px;">Recent Work</h1>
+	</div>
+
+
+	<div class="recent-work">
+		<p>I worked with different kinds of startup, small to medium businesses<br> and great individuals helping them to create meaningful websites<br> and stores.</p>
+		<img src="portfolio.png" class="portfolio-desk">
+		<img src="portfolio-mob.png" class="portfolio-mob">
+	</div>
+
+	<!--=====recent-work end=======-->
+	
+
+	<!--=====contact==-->
+	<div class="doing" id="click-contact">
+		<h1 class="dotext" style="width: 127px;margin-bottom: 0">Contact</h1>
+	</div>
+
+
+	<div class="contact-space">
+		<div class="full-contact flexx">
+			<div class="address-main">
+				<div class="address flexx">
+					<div class="address-icon">
+						<i class="fas fa-mobile-alt"></i>
+					</div>
+					<div class="address-text">
+						<h2>9034484035</h2>
+						<p style="font-weight: 800;">Call Me For Any Query</p>
+					</div>
+				</div>
+
+				<!--====address==-->
+				<div class="address flexx">
+					<div class="address-icon">
+						<i class="fas fa-envelope"></i>
+					</div>
+					<div class="address-text">
+						<p style="font-weight: 800;=">harshgujral.designer@gmail.com</p>
+					</div>
+				</div>
+
+				<!--====address==-->
+				<div class="address flexx">
+					<div class="address-icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="address-text">
+						<h3>Yamuna Nagar</h3>
+						<h2 style="font-weight: 800;">INDIA</h2>
+					</div>
+				</div>
+
+				<!--====address==-->
+			</div>
+			<div class="input-main">
+				<div class="doing input-doing">
+					<h1 class="dotext-sm" style="width: 238px">How Can I Help You ?</h1>
+				</div>
+
+				<!--doing-->
+				<form >
+				<input name="name" placeholder="Full Name" type="text" required> <input name="EmailAddress" placeholder="Email Address" type="text" required> <input name="Subject" placeholder="Subject" type="text" required>
+			</div>
+			<textarea name="message" placeholder="Message" rows="8" required></textarea>
+
+		</form>
+		</div>
+		<div class="text-banner contact-btn">
+			<a href="#" style="">Send Message</a>
+		</div>
+	</div>
+
+	<!--===contact-end==-->
+</body>
+</html>
